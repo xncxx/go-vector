@@ -6,7 +6,7 @@ This repository accompanies a blog post about implementing a generic Vector (dyn
 
 - Generic vector implementation using Go 1.18+ generics
 - Dynamic resizing (automatic capacity management)
-- Methods for push, pop, insert, prepend, delete, clear, and access by index
+- Methods for push, pop, insert, prepend, delete, and access by index
 - Example usage in `main.go` with output showing vector operations
 
 ## File Structure
