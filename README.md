@@ -40,7 +40,7 @@ You will see output showing when elements are added or removed, along with the v
 
 ## Blog Post
 
-For a detailed explanation of the implementation, design decisions, and Go generics, see the accompanying blog post: [LINK_TO_YOUR_BLOG_POST]
+For a detailed explanation of the implementation, design decisions, and Go generics, see [the accompanying blog post](https://www.thecodechameleon.io/articles/go_vector/).
 
 ## License
 
