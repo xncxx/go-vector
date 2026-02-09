@@ -30,11 +30,14 @@ func (v *Vector[T]) IsEmpty() bool {
 	return v.Size() == 0
 }
 
-func (v *Vector[T]) At(index int) T {
+func (v *Vector[T]) At(index int) (T, error) {
+
 	if index < 0 || index >= v.Size() {
-		panic("Index out of range")
+		var zero T
+		return zero, fmt.Errorf("Index out of range")
 	}
-	return v.arr[index]
+
+	return v.arr[index], nil
 }
 
 func (v *Vector[T]) Push(elem T) {
